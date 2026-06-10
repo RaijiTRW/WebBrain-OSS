@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebBrain Starter Site</title>
+    <meta
+      name="description"
+      content="Легкий стартовый сайт, созданный для будущего визуального редактора WebBrain."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="site-nav" aria-label="Навигация">
+        <a class="brand" href="#top">Studio</a>
+        <div class="nav-links">
+          <a href="#services">Услуги</a>
+          <a href="#work">Процесс</a>
+          <a href="#contact">Контакты</a>
+        </div>
+      </nav>
+
+      <section id="top" class="hero">
+        <p class="eyebrow">Сайт для бизнеса</p>
+        <h1>Запустите аккуратную страницу без долгой сборки.</h1>
+        <p class="hero-copy">
+          Чистый HTML, CSS и JS-шаблон для первого редактора WebBrain: герой, преимущества,
+          шаги работы и контактный блок.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Оставить заявку</a>
+          <a class="button secondary" href="#services">Посмотреть блоки</a>
+        </div>
+      </section>
+
+      <section id="services" class="cards" aria-label="Преимущества">
+        <article>
+          <span>01</span>
+          <h2>Структура</h2>
+          <p>Первый экран, оффер, CTA и понятная логика для клиента.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>Визуал</h2>
+          <p>Темный стиль, мягкие акценты и секции, готовые к редактированию.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>Запуск</h2>
+          <p>Легкий код без зависимостей, который можно сохранять и публиковать.</p>
+        </article>
+      </section>
+
+      <section id="work" class="process">
+        <div>
+          <p class="eyebrow">Процесс</p>
+          <h2>От идеи к странице за один поток.</h2>
+        </div>
+        <ol>
+          <li>Опишите бизнес и цель.</li>
+          <li>Получите черновик сайта.</li>
+          <li>Отредактируйте блоки визуально.</li>
+        </ol>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Готовы собрать первый сайт?</h2>
+        <p>Замените текст, цвета и блоки в будущем редакторе WebBrain.</p>
+        <button id="contactButton" class="button primary" type="button">Начать</button>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

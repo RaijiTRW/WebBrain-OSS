@@ -1,0 +1,35 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(594 286) rotate(42) scale(840 520)">
+      <stop stop-color="#72E6FF" stop-opacity="0.42"/>
+      <stop offset="0.42" stop-color="#72E6FF" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#020304" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1325 420) rotate(126) scale(780 480)">
+      <stop stop-color="#C8FF72" stop-opacity="0.34"/>
+      <stop offset="0.44" stop-color="#C8FF72" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#020304" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(968 888) rotate(18) scale(720 280)">
+      <stop stop-color="#F6D08A" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020304" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="244" y1="134" x2="1702" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFF" stop-opacity="0.13"/>
+      <stop offset="0.48" stop-color="#F5FBFF" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#72E6FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="blur" x="-240" y="-200" width="2400" height="1480" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="#020304"/>
+  <g filter="url(#blur)">
+    <path d="M-80 700C260 448 568 524 872 414C1228 286 1372 58 2020 140V-80H-80V700Z" fill="url(#a)"/>
+    <path d="M2060 940C1616 708 1378 792 1120 660C822 508 760 272 338 338C168 364 40 420 -100 502V1190H2060V940Z" fill="url(#b)"/>
+    <ellipse cx="960" cy="920" rx="720" ry="220" fill="url(#c)"/>
+  </g>
+  <rect x="148" y="108" width="1624" height="858" rx="54" fill="url(#glass)" stroke="#F5FBFF" stroke-opacity="0.09"/>
+  <path d="M262 805C494 688 672 740 862 644C1044 552 1134 380 1368 334C1498 308 1612 322 1742 372" stroke="#F5FBFF" stroke-opacity="0.09" stroke-width="1.5"/>
+  <path d="M242 350C468 434 676 402 872 302C1120 176 1324 122 1672 208" stroke="#72E6FF" stroke-opacity="0.08" stroke-width="1.25"/>
+</svg>

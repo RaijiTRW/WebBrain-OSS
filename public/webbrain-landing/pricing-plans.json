@@ -1,0 +1,294 @@
+{
+  "plans": [
+    {
+      "key": "start",
+      "tierId": "start",
+      "name": "Starter",
+      "price": "Custom",
+      "priceLabel": "Configured privately",
+      "suffix": "set in your deployment",
+      "currencySymbol": "",
+      "billing": {
+        "monthly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private pricing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Real WebBrain pricing, costs, credits, and margins are not part of OSS.",
+          "features": [
+            "Editor and runtime foundation",
+            "Structured document model",
+            "Visual editing workflow",
+            "Bring your own AI service"
+          ]
+        },
+        "yearly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private billing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Annual economics are intentionally omitted from OSS.",
+          "features": [
+            "Editor and runtime foundation",
+            "Structured document model",
+            "Visual editing workflow",
+            "Bring your own AI service"
+          ]
+        }
+      },
+      "note": "Demo plan metadata for OSS deployments. Replace this with your own commercial model.",
+      "cta": {
+        "landing": "Configure Starter",
+        "pricing": "Configure Starter",
+        "settings": "Configure Starter"
+      },
+      "href": "/signup",
+      "tone": "quiet",
+      "features": [
+        "Editor and runtime foundation",
+        "Structured document model",
+        "Visual editing workflow",
+        "Bring your own AI service"
+      ],
+      "advantages": [
+        "Public architecture only",
+        "Deployment-specific pricing",
+        "No WebBrain internal economics"
+      ],
+      "limits": {
+        "credits": 0,
+        "creditsLabel": "Private",
+        "periodLimit": "Deployment-defined",
+        "sites": 0,
+        "sitesLabel": "Deployment-defined",
+        "aiModel": "Bring your own AI",
+        "reasoning": "Deployment-defined",
+        "publishing": "Deployment-defined",
+        "support": "Deployment-defined",
+        "workspace": "Deployment-defined",
+        "database": "Deployment-defined",
+        "api": "Deployment-defined"
+      }
+    },
+    {
+      "key": "pro",
+      "tierId": "pro",
+      "name": "Builder",
+      "price": "Custom",
+      "priceLabel": "Configured privately",
+      "suffix": "set in your deployment",
+      "currencySymbol": "",
+      "billing": {
+        "monthly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private pricing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Real WebBrain pricing, costs, credits, and margins are not part of OSS.",
+          "features": [
+            "Custom usage limits",
+            "Custom AI model access",
+            "Custom publication rules",
+            "Deployment-owned support policy"
+          ]
+        },
+        "yearly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private billing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Annual economics are intentionally omitted from OSS.",
+          "features": [
+            "Custom usage limits",
+            "Custom AI model access",
+            "Custom publication rules",
+            "Deployment-owned support policy"
+          ]
+        }
+      },
+      "note": "Public placeholder for a paid tier. Real WebBrain pricing is intentionally private.",
+      "cta": {
+        "landing": "Configure Builder",
+        "pricing": "Configure Builder",
+        "settings": "Configure Builder"
+      },
+      "href": "/signup?plan=pro",
+      "tone": "standard",
+      "features": [
+        "Custom usage limits",
+        "Custom AI model access",
+        "Custom publication rules",
+        "Deployment-owned support policy"
+      ],
+      "advantages": [
+        "Public architecture only",
+        "Deployment-specific pricing",
+        "No WebBrain internal economics"
+      ],
+      "limits": {
+        "credits": 0,
+        "creditsLabel": "Private",
+        "periodLimit": "Deployment-defined",
+        "sites": 0,
+        "sitesLabel": "Deployment-defined",
+        "aiModel": "Bring your own AI",
+        "reasoning": "Deployment-defined",
+        "publishing": "Deployment-defined",
+        "support": "Deployment-defined",
+        "workspace": "Deployment-defined",
+        "database": "Deployment-defined",
+        "api": "Deployment-defined"
+      }
+    },
+    {
+      "key": "pro-plus",
+      "tierId": "pro_plus",
+      "name": "Studio",
+      "price": "Custom",
+      "priceLabel": "Configured privately",
+      "suffix": "set in your deployment",
+      "currencySymbol": "",
+      "billing": {
+        "monthly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private pricing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Real WebBrain pricing, costs, credits, and margins are not part of OSS.",
+          "features": [
+            "Advanced editor workflows",
+            "Private AI integration boundary",
+            "Custom runtime limits",
+            "Custom support policy"
+          ]
+        },
+        "yearly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private billing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Annual economics are intentionally omitted from OSS.",
+          "features": [
+            "Advanced editor workflows",
+            "Private AI integration boundary",
+            "Custom runtime limits",
+            "Custom support policy"
+          ]
+        }
+      },
+      "note": "Example tier for teams building on the OSS surface. Set economics in your private deployment.",
+      "cta": {
+        "landing": "Configure Studio",
+        "pricing": "Configure Studio",
+        "settings": "Configure Studio"
+      },
+      "href": "/signup?plan=pro-plus",
+      "tone": "featured",
+      "badge": "Example",
+      "features": [
+        "Advanced editor workflows",
+        "Private AI integration boundary",
+        "Custom runtime limits",
+        "Custom support policy"
+      ],
+      "advantages": [
+        "Public architecture only",
+        "Deployment-specific pricing",
+        "No WebBrain internal economics"
+      ],
+      "limits": {
+        "credits": 0,
+        "creditsLabel": "Private",
+        "periodLimit": "Deployment-defined",
+        "sites": 0,
+        "sitesLabel": "Deployment-defined",
+        "aiModel": "Bring your own AI",
+        "reasoning": "Deployment-defined",
+        "publishing": "Deployment-defined",
+        "support": "Deployment-defined",
+        "workspace": "Deployment-defined",
+        "database": "Deployment-defined",
+        "api": "Deployment-defined"
+      }
+    },
+    {
+      "key": "business",
+      "tierId": "business",
+      "name": "Enterprise",
+      "price": "Custom",
+      "priceLabel": "Configured privately",
+      "suffix": "set in your deployment",
+      "currencySymbol": "",
+      "billing": {
+        "monthly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private pricing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Real WebBrain pricing, costs, credits, and margins are not part of OSS.",
+          "features": [
+            "Private deployment model",
+            "Custom workspace policy",
+            "Custom publication capacity",
+            "Custom security and support terms"
+          ]
+        },
+        "yearly": {
+          "price": "Custom",
+          "priceLabel": "Configured privately",
+          "priceTitle": "Private billing model",
+          "suffix": "set in your deployment",
+          "currencySymbol": "",
+          "caption": "Annual economics are intentionally omitted from OSS.",
+          "features": [
+            "Private deployment model",
+            "Custom workspace policy",
+            "Custom publication capacity",
+            "Custom security and support terms"
+          ]
+        }
+      },
+      "note": "Enterprise economics are deployment-specific and omitted from the public repository.",
+      "cta": {
+        "landing": "Contact sales",
+        "pricing": "Contact sales",
+        "settings": "Contact sales"
+      },
+      "href": "/signup?plan=business",
+      "tone": "business",
+      "comingSoon": true,
+      "features": [
+        "Private deployment model",
+        "Custom workspace policy",
+        "Custom publication capacity",
+        "Custom security and support terms"
+      ],
+      "advantages": [
+        "Public architecture only",
+        "Deployment-specific pricing",
+        "No WebBrain internal economics"
+      ],
+      "limits": {
+        "credits": 0,
+        "creditsLabel": "Private",
+        "periodLimit": "Deployment-defined",
+        "sites": 0,
+        "sitesLabel": "Deployment-defined",
+        "aiModel": "Bring your own AI",
+        "reasoning": "Deployment-defined",
+        "publishing": "Deployment-defined",
+        "support": "Deployment-defined",
+        "workspace": "Deployment-defined",
+        "database": "Deployment-defined",
+        "api": "Deployment-defined"
+      }
+    }
+  ]
+}

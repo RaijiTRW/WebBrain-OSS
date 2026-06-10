@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-10T07:31:21.026Z",
+  "source": "WebBrain",
+  "excluded": [
+    "git history",
+    "environment files",
+    "private keys",
+    "lib/webbrain-ai private orchestration",
+    "AI architecture documentation",
+    "AI/provider helper scripts",
+    "server-local SSL automation scripts"
+  ],
+  "aiBoundary": "Private AI orchestration is replaced by public stubs."
+}
